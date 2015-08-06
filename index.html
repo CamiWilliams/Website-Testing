@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Cami Williams | Computer Scientist</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="author" content="Cami Williams">
+
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+        <link href='http://fonts.googleapis.com/css?family=Montserrat|Arimo|Oxygen|Josefin+Sans' rel='stylesheet' type='text/css'>
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>      
+        <script type="text/javascript" src="lights.js"></script>
+
+    </head>
+    <body onload="windowAdjust(); curvedWords();" onresize="windowAdjust()" onscroll="scroll()">
+        <!--<img src="white_brick.jpg" id="bg" alt="">
+        <div id="opacity"></div>-->
+        <div id="scrolled">
+            <div id="section1" class="section">
+                <div id="home">
+                    <div id="occupation">DEVELOPER EVANGELIST & SOFTWARE ENGINEER</div>
+                    <div id="initials">CW</div>
+                    <div id="fullname">CAMRYN WILLIAMS</div>
+                </div>
+                <!--<div id = "navigation" class="nav"> - 
+                    <a id="about" href="#section2">ABOUT</a> - 
+                    <a id="work" href="#section3">WORK</a> - 
+                    <a id="skills" href="#section4">SKILLS</a> - 
+                    <a id="resume" href="#section5">RESUME</a> - 
+                    <a id="contact" href="#section6">CONTACT</a> -
+                </div>-->
+            </div>
+            <div id="section2" class="section">
+                <!--<div id="about_me">
+                    <ol>
+                      <li>
+                    <img id = "msoft_image" src="microsoft_black.png">
+                        <span class="details">
+                          Description of point 1
+                        </span>
+                      </li>
+                      <li>
+                        Point 2
+                        <span class="details">
+                          Description of point 2
+                        </span>
+                      </li>
+                      <li>
+                        Point 3
+                        <span class="details">
+                          Description of point 3
+                        </span>
+                      </li>
+                    </ol>
+                    
+
+                    <img id = "msoft_image" src="microsoft_black.png">
+
+                    <img id = "isu_image" src="isu_black.png">
+
+                    <img id = "adobe_image" src="adobe_black.png">
+                    <img id = "hackisu_image" src="hackisu_black.png">
+                        <img id = "google_image" src="google_black.png">
+                    <img id = "gsa_image" src="gsa.png">
+
+                    <img id = "oreilly_image" src="oreilly_black.png">
+                        <img id = "apple_image" src="apple_black.png">
+
+                    
+                </div>-->
+            </div>
+            <div id="section3" class="section">
+                hello this is cami trying to make this work.
+            </div>
+            <div id="section4" class="section">
+                hello this is cami trying to make this work.
+            </div>
+            <div id="section5" class="section">
+                hello this is cami trying to make this work.
+            </div>
+            <div id="section6" class="section">
+                hello this is cami trying to make this work.
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="jquery.easing.1.3.js"></script>
+    <script type="text/javascript">
+          $(function() {
+              $('navigation a').bind('click',function(event){
+                var $anchor = $(this);
+                /*
+                   if you want to use one of the easing effects:
+                   $('html, body').stop().animate({
+                    scrollLeft: $($anchor.attr('href')).offset().left
+                   }, 1500,'easeInOutExpo');
+                 */
+                $('.scrolled').stop().animate({
+                  scrollLeft: $($anchor.attr('href')).offset().left
+                }, 1000);
+                event.preventDefault();
+              });
+          });
+    </script>
+    </body>
+
+</html>

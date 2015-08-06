@@ -1,0 +1,39 @@
+header{width:100%; height:auto; background:#FFF;padding:50px 0px; position:fixed; top:0; left:0; z-index:999; box-shadow: 0px 2px 15px #CCC !important;-webkit-box-shadow: 0px 2px 15px #CCC !important; -moz-box-shadow: 0px 2px 15px #999 !important; -o-box-shadow: 0px 2px 15px #999 !important; -ms-box-shadow: 0px 2px 15px #999 !important;}
+
+
+
+
+/*---------------------HOME PAGE STYLES---------------------*/
+.intro{background:url(../images/iphonec.png) top center no-repeat fixed;  margin-top:166px; }
+.welcome_txt{margin-top:120px;}
+.welcome_txt .page_title{text-align:left; color:#222;}
+.welcome_txt  p{margin-top:10px;}
+.welcome_txt .small_btn:hover{background:#e1704b; color:#FFF;}
+.welcome_promo{position:relative;}
+.welcome_promo .big_circle{width:270px; height:270px; border-radius:50%;  -moz-border-radius:50%; -webkit-border-radius:50%; -o-border-radius:50%; -ms-border-radius:50%; background: #020b0a url(../images/big_circle_bg.png) no-repeat; background-size:100%; right:0px; top:20px; position:absolute; color:#FFF; text-align:center; -webkit-transition: all 0.3s ease-in;-moz-transition:all 0.3s ease-in;-ms-transition:all 0.3s ease-in;-o-transition: all 0.3s ease-in;-transition: all 0.3s ease-in; overflow:hidden;}
+
+.big_circle .sub_heading{margin-top:125px; -webkit-transition: all 0.3s ease-in;-moz-transition:all 0.3s ease-in;-ms-transition:all 0.3s ease-in;-o-transition: all 0.3s ease-in;-transition: all 0.3s ease-in; overflow:hidden; color:#FFF; font-family: 'Akzidenz Light'; text-transform:uppercase; margin-bottom:-10px;}
+.big_circle p{display:none; width:60%; margin:0 auto; font-size:12px; line-height:19px; color:#FFF;}
+.big_circle:hover{background-position:0 -100px;}
+.big_circle:hover > .sub_heading{margin-top:60px;}
+
+.big_circle .sub_heading span{color:#222;}
+
+.welcome_promo .small_circle{width:120px; height:70px; padding-top:50px; border-radius:50%;  -moz-border-radius:50%; -webkit-border-radius:50%; -o-border-radius:50%; -ms-border-radius:50%; background: #8870ff; position:absolute; color:#FFF; text-align:center; -webkit-transition: all 0.3s ease-in;-moz-transition:all 0.3s ease-in;-ms-transition:all 0.3s ease-in;-o-transition: all 0.3s ease-in;-transition: all 0.3s ease-in; overflow:hidden; font-size:16px;}
+
+.circle1.small_circle{top:300px; right:200px;}
+
+@media (max-width: 768px) {
+  .intro{background:#FFF; }
+  .welcome_txt{margin-top:0px !important;}
+}
+
+@media (max-width: 1000px) {
+  .welcome_promo .big_circle{width:170px; height:170px;}
+  .big_circle .sub_heading{margin-top:100px; margin-bottom:5px;}
+  .big_circle p span, .big_circle p br{display:none;}
+  .big_circle:hover{background-position:0 -50px;}
+  .big_circle:hover > .sub_heading{margin-top:40px;}
+  .welcome_promo .small_circle{width:60px; height:40px; padding-top:20px; font-size:10px;}
+  .circle1.small_circle{top:200px; right:200px;}
+}

@@ -1,0 +1,110 @@
+.skill-legend{
+    font-family:"Novecento_Wide";
+    font-size: 24px;
+    padding: 5px;
+    border-top: solid 3px #000;
+    border-bottom: solid 3px #000;
+    text-align: right;
+}
+
+#content {
+position:absolute;
+top:50%;
+left:50%;
+margin:-340px 0 0 -450px;
+width:900px;
+height:600px;
+}
+
+.legend {
+float:left;
+width:250px;
+margin-top:140px;
+}
+
+#content h1 {
+font-family:'Cabin Sketch', arial, serif;
+text-shadow:3px 3px 0 #ddd;
+color:#193340;
+font-size:40px;
+margin-bottom:40px;
+text-align:right;
+}
+
+.skills {
+float:left;
+clear:both;
+width:100%;
+}
+
+.skills ul,
+.skills li {
+display:block;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.skills li {
+float:right;
+clear:both;
+padding:0 15px;
+height:35px;
+line-height:35px;
+color:#fff;
+margin-top: 5px;
+margin-bottom:1px;
+font-size:18px;
+	border-radius: 5px;
+}
+
+.skills .jq {
+background:#D82546;
+
+}
+
+.skills .css {
+background:#0B9BE1;
+}
+
+.skills .html {
+background:#FD6632;
+}
+
+.skills .php {
+background:#26B1AA;
+}
+
+.skills .sql {
+background:#A01445;
+}
+
+.footer {
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+background:#2D2D2D;
+color:#EAEAEA;
+padding:20px 0;
+}
+
+
+#diagram {
+width:600px;
+height:600px;
+}
+
+.get {
+display:none;
+}
+
+
+/* ------ anchors
+-----------------------------------------------*/
+
+a {
+text-decoration:none;
+color:#333;
+}
+

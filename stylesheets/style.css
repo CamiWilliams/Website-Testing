@@ -1,0 +1,263 @@
+@media (min-width: 1200px) {
+  .span12, .container {
+    width: 1000px;
+  }
+}
+
+body {
+	font-family:"Open_Sans_R";
+	font-size: 14px;
+	background:#FFF;
+	color:#222;
+	
+}
+::-moz-selection{
+	background: #8870ff; 
+	color: #fff; 
+	text-shadow: none;
+}
+::selection {
+	background: #8870ff; 
+	color: #fff; 
+	text-shadow: none;
+} 
+
+h1, h2, h3, h4, h5, h6{font-family: 'Akzidenz Bold'; font-weight:normal;  text-shadow:none !important;}
+p, a{font-family:"Open_Sans_R"; font-size: 14px; line-height:21px; text-shadow:none !important; outline:none !important;}
+.clear{clear:both;}
+.page_title{text-align:center; font-size:70px; line-height:67px; font-family: 'Akzidenz Bold'; font-weight:normal; color:#CCC;}
+.promo_txt{text-align:center; font-size:20px; line-height:27px;padding:15px 0px; color:#BBB; border-top:#CCC solid 1px; margin-top:15px; margin-bottom:20px; text-transform:uppercase;}
+.main_heading{font-size:30px; line-height:67px; font-family: 'Akzidenz Bold'; font-weight:normal;}
+.sub_heading{font-size:2em; padding:15px 0px; line-height:1em; font-weight: bold;}
+.social-icons a{font-family: 'Socials'; font-size:56px; color:#222; line-height:50px;}
+.social-icons a:hover{text-decoration:none; color:#8870ff;}
+.icon{font-family: 'Entypo'; font-size:40px; text-align:center; padding-top:10px; padding-right:10px;;}
+.small_btn{padding:7px 9px; background:#222; color:#FFF; border:none;}
+.small_btn:hover{text-decoration:none; background:#FFF; color:#8870ff;}
+.txt_light{font-family: 'Akzidenz Light';}
+::selection {
+background: #8870ff;
+color: #FFF;
+text-shadow: 0 1px 1px #000;
+}
+
+
+header{width:100%; height:auto; background:#FFF;padding:50px 0px; position:fixed; top:0; left:0; z-index:999;}
+header .logo_holder{width:auto; float:left;}
+header nav{width:auto; float:right; margin-top:20px;}
+header nav a{display:block; width:auto; float:left; margin-left:20px; text-transform:uppercase; font-size:14px; color:#222;}
+header nav a:hover, .def-link{color:#222; text-decoration:line-through;}
+
+.mobile-nav{margin-right:10px;}
+
+@media (max-width: 460px) {
+  .mobile-nav select{width:100px;}
+}
+
+.page{width:100%; height:auto; margin-top:86px;}
+@media (max-width: 768px) {
+  .page{padding-top:100px; margin-top:0px;}
+}
+
+
+
+
+
+
+/*---------------------ABOUT SECTION STYLES---------------------*/
+
+.process {text-align:center; margin-top:50px;}
+.process .span3{margin-bottom:95px;}
+.testimonials{background: #424242; color: #FFF; padding-top: 70px; padding-bottom:60px; text-align:center; margin-bottom:100px; }
+.testimonial{display:none;}
+.testimonial_collection .testimonial:first-child{display:block;}
+.testimonial p{ font-size:24px; line-height:31px; font-family:Georgia, "Times New Roman", Times, serif; font-style:oblique;}
+.testimonial_nav{height:19px; display:inline-block; margin-top:25px;}
+.testimonial_nav a{display:block; width:19px; height:19px; float:left; background:url(../images/nav_bg.png) no-repeat; background-position:0px -19px; overflow:hidden;}
+.testimonial_nav a:hover, .testimonial_nav a.active_nav{background-position:0px 0px;}
+.about_txt{margin-top:25px; margin-bottom:90px;}
+.team{margin-top:30px; margin-bottom:100px;}
+.team .sub_heading{color:#8870ff;}
+.clients{background: #8870ff; padding-top: 40px; padding-bottom: 25px; text-align:center; margin-bottom:96px;}
+.clients .page_title{color:#FFF; margin-bottom:0px;}
+.client{margin-bottom:12px;}
+.client_name{color: #8870ff}
+
+@media (max-width: 800px) {
+  .testimonials{padding: 50px 10px;}
+}
+
+@media (max-width: 780px) {
+  .team{text-align:center;}
+}
+
+
+
+
+
+
+/*---------------------SERVICE SECTION STYLES---------------------*/
+
+.service{text-align:center; margin-top: 50px; margin-bottom: 36px;}
+.service .span4{margin-bottom:50px;}
+.service .icon img{ margin-bottom: 10px;}
+.other_services{margin-bottom:56px; margin-top:50px; margin-bottom: 60px;}
+.other_services .span6{margin-bottom:35px;}
+.other_services .span6 .sub_heading{color:#8870ff;}
+.other_services .span6 .sub_heading .icon{color:#222;}
+.quick_connect{background: #8870ff; padding: 70px 0px 80px 0px; text-align:center; margin-bottom:98px;}
+.quick_connect .page_title{color:#FFF; margin-bottom:45px;}
+.contact_button a{padding:12px; background:#222; color:#FFF; font-size:18px;}
+.contact_button a:hover{background:#FFF; color:#8870ff; text-decoration:none;}
+
+
+
+
+
+
+
+
+/*---------------------PORTFOLIO STYLES---------------------*/
+
+.portfolio-inner{margin-bottom:84px; margin-top:40px;}
+.element{
+	
+	width: 250px;
+	height: 250px;
+	
+}
+.gallery-caps{
+	width: 250px;
+	height: 250px;
+	text-align: center;
+}
+.gallery-caps > h3{
+	width: 250px;
+	text-align: center;
+	padding-top: 50px;
+	font-family: 'Akzidenz Bold';
+	font-weight: normal;
+	color: #fff;
+	
+	text-transform:uppercase;
+	
+}
+.gallery-caps > p{
+	width: 250px;
+	padding-top: 160px;
+	text-align: center;
+	font-weight: normal;
+	color: #fff;
+}
+.gallery-caps{background:#8870ff url(../images/overlay-zoom.png) center center no-repeat;}
+
+
+
+#options{
+	/*background: #D82546;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-top: 40px;
+	border-radius: 0px;
+	border-radius: 5px;*/
+}
+#filters{
+	padding: 10px;
+}
+#filters li{
+}
+#filters li > a{
+	color: #222;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+#filters li > a:hover, #filters li > a.selected{
+	color: #222 !important;
+	text-decoration:line-through;
+}
+#filters li:after
+{
+content:' / ';
+	color: #222;
+	font-size: 18px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#filters li:last-child:after
+{
+	display: none;
+}
+
+
+
+
+
+
+
+
+/*---------------------FEATURES SECTION STYLES---------------------*/
+
+.main{
+	text-align: center;
+	width: 100%;
+	
+	padding: 30px 0px 50px 0px;
+	margin: 0 auto 30px auto;
+	
+}
+.clr{
+	clear: both;
+	padding: 0;
+	height: 0;
+	margin: 0;
+}
+.main .button-label, .main input, .main label{display:none !important;}
+.feature{margin-bottom:30px; margin-top:0px;}
+.show-grid div{margin-bottom:20px;}
+.show-grid div{background:#DDD; text-align:center; padding-top:5px;}
+.nav-tabs{margin-bottom:0px; padding-bottom:0px; border-bottom:none;}
+.nav-tabs li a{background:#CCC; color:#222; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px; -o-border-radius: 0px; -ms-border-radius: 0px; margin-bottom:1px;}
+.nav-tabs li.active a, .nav-tabs li.active a:hover, .nav-tabs li a:hover{background:#8870ff; text-decoration:none; color:#FFF;}
+.tab-pane{padding:15px; border:1px solid #E5E5E5;}
+.feature .tab-content{margin-bottom:20px;}
+
+a.accordion-toggle{background:#8870ff; color:#fff;}
+a.accordion-toggle:hover{text-decoration:none; background:#222; color:#FFF;}
+a.accordion-toggle span{padding-right:10px;}
+.messsages{margin-bottom:86px;}
+#features .quick_connect .page_title{margin-bottom:55px;}
+
+
+
+
+
+
+
+/*---------------------CONTACT SECTION STYLES---------------------*/
+
+.contact{margin-bottom:50px; margin-top:40px;}
+.contact_form{margin-top:8px; margin-bottom:54px;}
+.contact_form .input{width:75%; height:40px; background:#f7f7f7; color:#000; border-radius: 0px; box-shadow: none; margin-bottom:30px;}
+.contact_form .textarea{width:95%; height:150px; resize:none; background:#f7f7f7; color:#000; border-radius: 0px; box-shadow: none; margin-bottom:30px;}
+.contact_info {margin-bottom:50px;}
+.contact_info p{margin-bottom:20px;}
+
+
+#contact .quick_connect{margin-bottom:0px; padding-bottom:70px;}
+#contact .quick_connect .page_title{margin-bottom:0px;}
+
+
+
+
+
+
+
+
+/*---------------------FOOTER STYLES---------------------*/
+
+footer{background:#222; color:#FFF; padding-top:100px; padding-bottom:94px; text-align:center;}
+footer p{line-height:25px; margin-top:25px;}
+footer .connect{margin-bottom:20px; margin-top:22px}
+footer .connect a{color:#FFF; text-transform:uppercase; font-size:16px;}
+footer .connect a:hover{color:#8870ff; text-transform:uppercase; font-size:16px; text-decoration: none;}
+footer .connect span{padding:0px 2px; font-size:16px; font-weight:bold;}

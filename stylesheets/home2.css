@@ -1,0 +1,24 @@
+/*---------------------HOME PAGE STYLES---------------------*/
+.intro{background:#e1704b;  margin-top:166px; padding-bottom:30px;}
+.welcome_txt{margin-top:60px;}
+.welcome_img{text-align:center; margin-top:30px;}
+.welcome_txt .page_title{text-align:left; color:#FFF;  margin-bottom:20px;}
+.welcome_txt  p{margin-top:10px;}
+.welcome_promo{ font-size:38px; color:#222; line-height:45px; margin-bottom:30px; font-family: 'Akzidenz Light';}
+
+
+@media (max-width: 768px) {
+  .intro{ padding-left:10px; padding-right:10px;}
+  .welcome_txt{margin-top:0px !important;}
+}
+
+@media (max-width: 1000px) {
+  .welcome_promo .big_circle{width:170px; height:170px;}
+  .big_circle .sub_heading{margin-top:100px; margin-bottom:5px;}
+  .big_circle p span, .big_circle p br{display:none;}
+  .big_circle:hover{background-position:0 -50px;}
+  .big_circle:hover > .sub_heading{margin-top:40px;}
+  .welcome_promo .small_circle{width:60px; height:40px; padding-top:20px; font-size:10px;}
+  .circle1.small_circle{top:200px; right:200px;}
+}
+
