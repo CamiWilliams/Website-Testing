@@ -66,6 +66,38 @@ body {
   transform-origin: bottom center;
 }
 
+#city {
+	position: relative;
+	top: 200px;
+	width: 110%;
+	height: auto;      
+	right: 10px;
+}
+
+#first {
+	position: relative;
+	right: 10px;
+}
+
+#bar1 {
+	width: 110%;
+	height: 200px;
+	opacity: 0.5;
+	background-color: rgb(166,2,108);
+}
+
+#intro {
+	font-family: 'Josefin Sans', sans-serif; 
+  	font-size: 25px;
+  	color: #ffffff;
+  	position: relative;
+  	text-align: center;
+}
+
+#intro h1 {
+	font-family: 'Montserrat', sans-serif;
+}
+
 #about_me {
 	font-family: 'Josefin Sans', sans-serif; 
   	font-size: 25px;
