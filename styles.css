@@ -3,7 +3,6 @@ body {
 }
 
 #scrolled {
-	height:12000px;
   position:absolute;
 }
 
@@ -12,6 +11,11 @@ body {
     bottom:0px;
     float:left;
     width:100%;
+}
+
+.content {
+  font-family: 'Josefin Sans', sans-serif; 
+  font-size: 25px;
 }
 
 #circle {
@@ -24,7 +28,7 @@ body {
 }
 
 #section1 {
-
+	text-align: center;
 }
 
 #home {
@@ -56,8 +60,6 @@ body {
 }
 
 #occupation span {
-  font-family: 'Josefin Sans', sans-serif; 
-  font-size: 25px;
   height: 500px;
   position: absolute;
   width: 20px;
@@ -83,13 +85,11 @@ body {
 	width: 110%;
 	height: 200px;
 	opacity: 0.5;
-	background-color: rgb(166,2,108);
+	background-color: rgb(235,235,235);
 }
 
 #intro {
-	font-family: 'Josefin Sans', sans-serif; 
-  	font-size: 25px;
-  	color: #ffffff;
+  	color: #000000;
   	position: relative;
   	text-align: center;
 }
@@ -98,48 +98,177 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-#about_me {
+#second {
+	position: relative;
+	top: 700px;
 	font-family: 'Josefin Sans', sans-serif; 
-  	font-size: 25px;
-  	color: #ffffff;
-  	position: fixed;
-  	top: 150px;
-  	right: 475px;
-  	width: 500px;
-  	opacity: 0.0;
 }
 
-
-
-#msoft_image{
-	width: 205px;
+#second h1 {
+	font-family: 'Montserrat', sans-serif;
 }
 
-#isu_image {
-	width: 100px;
+#second img {
+    width: 250px;
+    height: auto;
+    border-radius: 125px;
+    margin: 5px 30px;
 }
 
-#adobe_image {
-	width: 175px;
+#about_me {
+    width: 300px;
+	display: inline-block;
+    text-align: justify;
+    font-size: 20px;
 }
 
-#hackisu_image {
-	width: 195px;
+#details {
+    width: 300px;
+	display: inline-block;
+    position: relative;
+    top: -185px;
+    text-align: justify;
+    font-size: 20px;
 }
 
-#google_image {
-	width: 195px;
+b {
+	font-family: 'Montserrat', sans-serif;
 }
 
-#gsa_image {
-	width: 100px;
+#third {
+    position: relative;
+    top: 800px;
 }
 
-#oreilly_image {
-	width: 205px;
+#experiences {
+	width: 110%;
+	position: relative;
+	right: 10px;
+	height: 500px;
+	color: #ffffff;
+	background-color: rgb(38,38,38);
 }
 
-#apple_image {
-	width: 105px;
+#work{
+	position: relative;
+	top: -500px;
+	left: 150px;
+	text-align: left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
 }
 
+a{
+	color: rgb(20,200,0);
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+}
+
+#one_way {
+	height: auto;
+    width: 500px;
+    position: relative;
+    left: 450px;
+}
+
+#skills {
+	position: relative;
+    top: 850px;
+    text-align: left;
+	left: 150px;
+}
+
+.skill_bar {
+	height: 50px;
+	position: relative;
+	margin: 10px;
+    top: -150px;
+    left: 32%;
+	color: white;
+	text-align: right;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#skills p {
+	text-align: right;
+	position: relative;
+	width: 30%;
+	top: 50px;
+}
+
+#java {
+	background-color: rgb(178,181,239);
+	width: 1000px;
+}
+
+#javascript {
+	background-color: rgb(159,163,235);
+	width: 800px;
+}
+
+#html_css {
+	background-color: rgb(135,141,231);
+	width: 900px;
+}
+
+#objective_c {
+	background-color: rgb(84,93,221);
+	width: 500px;
+}
+
+#angular {
+	background-color: rgb(65,75,218);
+	width: 600px;
+}
+
+#jasmine {
+	background-color: rgb(36,46,174);
+	width: 750px;
+}
+
+#sql {
+	background-color: rgb(19,26,134);
+	width: 800px;
+}
+
+#scheme {
+	background-color: rgb(13,9,99);
+	width: 400px;
+}
+
+#c {
+	background-color: rgb(10,2,25);
+	width: 650px;
+}
+
+#contact {
+	background-color: rgb(217,217,217);
+	width: 110%;
+	position: relative;
+	right: 10px;
+	height: 500px;
+	top: 750px;
+	text-align: left;
+}
+
+#contact img {
+	height:500px;
+	width: auto;
+	position: relative;
+    top: -471px;
+    left: 20%;
+}
+
+#contact h1 {
+	position: relative;
+	left:40%;
+}
+
+#contact p {
+	position: relative;
+	left:40%;
+}

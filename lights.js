@@ -20,7 +20,7 @@ function curvedWords() {
     var curved = '';
     var length = occupation.textContent.length;
     for (var i = 0; i < length; i++) {
-    	curved += '<span id="char' + i + '">';
+    	curved += '<span class="content" id="char' + i + '">';
     	curved += occupation.textContent[i] + '</span>';
     }
     occupation.innerHTML = curved;
@@ -38,7 +38,11 @@ function scroll() {
 
     if(curr_scroll < cityBottom*0.85) {
         home.style.visibility = 'visible'
-    } else if(curr_scroll > cityBottom*0.85) {
+    } else if(curr_scroll >= cityBottom + 100) {
+        home.style.visibility = 'hidden'
+    }
+
+    if(curr_scroll > cityBottom*0.85) {
         var offset = (window.innerHeight * 0.3) + (curr_scroll-cityBottom*0.85)*2.25;
         if(offset > 800) {
             offset = 800;
@@ -47,8 +51,7 @@ function scroll() {
         first.style.top = offset + 'px';
     }
 
-    if(curr_scroll >= cityBottom + 100) {
-        home.style.visibility = 'hidden'
+    if(curr_scroll > 2075) {
 
     }
 }
