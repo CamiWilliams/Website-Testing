@@ -100,7 +100,8 @@ body {
 #second {
 	position: relative;
 	display: -webkit-inline-box;
-	font-family: 'Josefin Sans', sans-serif; 
+	font-family: 'Josefin Sans', sans-serif;
+	padding-bottom: 15px;
 }
 
 #second h1 {
