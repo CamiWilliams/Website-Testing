@@ -84,12 +84,11 @@ body {
 #bar1 {
 	width: 110%;
 	height: 200px;
-	opacity: 0.5;
-	background-color: rgb(235,235,235);
+	background-color: #071636;
 }
 
 #intro {
-  	color: #000000;
+  	color: #ffffff;
   	position: relative;
   	text-align: center;
 }
@@ -100,7 +99,7 @@ body {
 
 #second {
 	position: relative;
-	top: 700px;
+	display: -webkit-inline-box;
 	font-family: 'Josefin Sans', sans-serif; 
 }
 
@@ -109,24 +108,20 @@ body {
 }
 
 #second img {
-    width: 250px;
+    width: 350px;
     height: auto;
-    border-radius: 125px;
-    margin: 5px 30px;
+    margin: 50px 30px;
 }
 
 #about_me {
     width: 300px;
-	display: inline-block;
     text-align: justify;
     font-size: 20px;
 }
 
 #details {
     width: 300px;
-	display: inline-block;
     position: relative;
-    top: -185px;
     text-align: justify;
     font-size: 20px;
 }
@@ -145,21 +140,21 @@ b {
 	position: relative;
 	right: 10px;
 	height: 500px;
+    display: -webkit-inline-box;
 	color: #ffffff;
 	background-color: rgb(38,38,38);
 }
 
 #work{
-	position: relative;
-	top: -500px;
-	left: 150px;
 	text-align: left;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 20px;
+	margin-left: 150px;
+	margin-right: 15px;
 }
 
 a{
-	color: rgb(20,200,0);
+	color: #c2109b;
 }
 
 h1 {
@@ -170,8 +165,6 @@ h1 {
 #one_way {
 	height: auto;
     width: 500px;
-    position: relative;
-    left: 450px;
 }
 
 #skills {
@@ -185,8 +178,6 @@ h1 {
 	height: 50px;
 	position: relative;
 	margin: 10px;
-    top: -150px;
-    left: 32%;
 	color: white;
 	text-align: right;
 	font-size: 25px;
@@ -198,6 +189,7 @@ h1 {
 	position: relative;
 	width: 30%;
 	top: 50px;
+    margin: 15px;
 }
 
 #java {
@@ -251,24 +243,20 @@ h1 {
 	position: relative;
 	right: 10px;
 	height: 500px;
-	top: 750px;
+	top: 850px;
 	text-align: left;
 }
 
 #contact img {
 	height:500px;
 	width: auto;
-	position: relative;
-    top: -471px;
-    left: 20%;
+    margin-top: -75px;
 }
 
 #contact h1 {
-	position: relative;
-	left:40%;
+    margin-left: 325px;
 }
 
 #contact p {
-	position: relative;
-	left:40%;
+
 }

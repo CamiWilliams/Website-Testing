@@ -9,10 +9,22 @@ function windowAdjust() {
     }
 
     city.style.top = window.innerHeight + "px";
-    first.style.top = (window.innerHeight * 0.3) + "px";
+    first.style.top = (window.innerHeight - 5) + "px";
+    second.style.top = (window.innerHeight - 5) + "px";
     intro.style.top = "-200px";
 
     cityBottom = parseInt(city.height);
+
+    java.style.width = (window.innerWidth * 0.5) + "px";
+    javascript.style.width = (window.innerWidth * 0.4) + "px";
+    html_css.style.width = (window.innerWidth * 0.45) + "px";
+    objective_c.style.width = (window.innerWidth * 0.25) + "px";
+    angular.style.width = (window.innerWidth * 0.3) + "px";
+    jasmine.style.width = (window.innerWidth * 0.375) + "px";
+    sql.style.width = (window.innerWidth * 0.4) + "px";
+    scheme.style.width = (window.innerWidth * 0.2) + "px";
+    c.style.width = (window.innerWidth * 0.325) + "px";
+
 }
 
 function curvedWords() {
@@ -34,7 +46,7 @@ function curvedWords() {
 
 function scroll() {
     var curr_scroll = window.scrollY;
-    bar1.style.opacity = curr_scroll * 0.0008; 
+    //bar1.style.opacity = curr_scroll * 0.0008; 
 
     if(curr_scroll < cityBottom*0.85) {
         home.style.visibility = 'visible'
@@ -42,7 +54,7 @@ function scroll() {
         home.style.visibility = 'hidden'
     }
 
-    if(curr_scroll > cityBottom*0.85) {
+   /* if(curr_scroll > cityBottom*0.85) {
         var offset = (window.innerHeight * 0.3) + (curr_scroll-cityBottom*0.85)*2.25;
         if(offset > 800) {
             offset = 800;
@@ -53,5 +65,5 @@ function scroll() {
 
     if(curr_scroll > 2075) {
 
-    }
+    }*/
 }
