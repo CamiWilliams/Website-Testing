@@ -11,6 +11,9 @@ function windowAdjust() {
     city.style.top = window.innerHeight + "px";
     first.style.top = (window.innerHeight - 5) + "px";
     second.style.top = (window.innerHeight - 5) + "px";
+    third.style.top = (window.innerHeight - 5) + "px";
+    forth.style.top = (window.innerHeight - 5) + "px";
+    fifth.style.top = (window.innerHeight - 5) + "px";
     intro.style.top = "-200px";
 
     cityBottom = parseInt(city.height);
